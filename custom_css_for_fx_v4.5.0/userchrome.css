@@ -105,6 +105,7 @@
 
 @import "./config/general_variables.css"; /**/
 
+
 /* -------------------------
    MAIN UI / COLOR VARIABLES
    -------------------------
@@ -116,7 +117,7 @@
 */
 
 /* default 'grey' colors */
-@import "./config/color_variables.css"; /**/
+ @import "./config/color_variables.css"; /**/
 
 /* 'AeroBlue' colors (Win 7 Aero) */
 /* @import "./config/color_variables_aero.css"; /**/
@@ -207,7 +208,7 @@
 */
 
 /* 'Classic' pre-Proton button padding */
-/* @import "./css/buttons/classic_button_padding.css"; /**/
+ @import "./css/buttons/classic_button_padding.css"; /**/
 
 
 /* -------------------------------------
@@ -219,7 +220,7 @@
    [!] good for Dark themes: buttons_on_navbar_glass_appearance.css
 */
 
-@import "./css/buttons/buttons_on_navbar_classic_appearance.css"; /**/
+/* @import "./css/buttons/buttons_on_navbar_classic_appearance.css"; /**/
 /* @import "./css/buttons/buttons_on_navbar_classic_appearance_v2.css"; /**/
 /* @import "./css/buttons/buttons_on_navbar_classic_appearance_dark.css"; /**/		
 /* @import "./css/buttons/buttons_on_navbar_aero_appearance.css"; /**/
@@ -246,7 +247,7 @@
 */
 
 /* 'rectangular shape' - normal size */
-/* @import "./css/buttons/buttons_on_navbar_squared_buttons.css"; /**/
+ @import "./css/buttons/buttons_on_navbar_squared_buttons.css"; /**/
 
 /* 'normal shape' - large size (huge 48x48px buttons with 36x36px icons)
    [!] EXPERIMENTAL
@@ -388,7 +389,7 @@
    [!] disable all other appbutton options when using this option
 */
 
-/* @import "./css/appbutton/appbutton_hidden.css"; /**/
+ @import "./css/appbutton/appbutton_hidden.css"; /**/
 
 
 /* ----------------------------------
@@ -529,7 +530,7 @@
 */
 
 /* Classic tabs appearance known from Firefox 4-28 */
-@import "./css/tabs/classic_squared_tabs.css"; /**/
+/*@import "./css/tabs/classic_squared_tabs.css"; /**/
 
 /* Classic tabs appearance known from Firefox 4-28 for active tab only  */
 /* @import "./css/tabs/classic_squared_tabs_australized.css"; /**/
@@ -541,7 +542,7 @@
 /* @import "./css/tabs/default_tabs_with_colors.css"; /**/
 
 /* Tab appearance based on tabs known from Firefox 57 - 88 */
-/* @import "./css/tabs/default_tabs_photon.css"; /**/
+ @import "./css/tabs/default_tabs_photon.css"; /**/
 /* @import "./css/tabs/default_tabs_photon_alt.css"; /**/ /* file from v4.2.7 -no support- */
 
 
@@ -671,10 +672,10 @@
    [!] only use one option at a time
 */
 
-@import "./css/tabs/tab_close_always_visible.css"; /**/
+/* @import "./css/tabs/tab_close_always_visible.css"; /**/
 /* @import "./css/tabs/tab_close_on_active_tab_only.css"; /**/
 /* @import "./css/tabs/tab_close_show_on_hover_only.css"; /**/
-/* @import "./css/tabs/tab_close_hidden.css"; /**/
+ @import "./css/tabs/tab_close_hidden.css"; /**/
 /* @import "./css/tabs/tab_close_hidden_for_only_one_visible_tab.css"; /**/
 /* @import "./css/tabs/tab_close_at_tabs_start.css"; /**/
 /* @import "./css/tabs/tab_close_icon_size.css"; /**/
